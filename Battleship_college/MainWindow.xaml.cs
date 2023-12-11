@@ -319,6 +319,7 @@ namespace Battleship_college
             else
             {
                 //прорисовка промаха на поле
+
                 ImageBrush brush = new ImageBrush(new BitmapImage(new Uri("Resources/boom.png", UriKind.Relative)));
                 playerBoard[row, col].Background = brush;
                 playerBoard[row, col].Content = "-";
